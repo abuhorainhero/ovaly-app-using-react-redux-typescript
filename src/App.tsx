@@ -1,8 +1,11 @@
+import AppRouter from './AppRouter';
+import Header from './components/common/Header';
+
 function App() {
   return (
-    <div>
-      <h1>Hello, Ovaly</h1>
-    </div>
+    <AppRouter>
+      <Header />
+    </AppRouter>
   );
 }
 
